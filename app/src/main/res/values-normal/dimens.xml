@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="logo_size">100dp</dimen>
+    <dimen name="text_s">10sp</dimen>
+    <dimen name="text_n">12sp</dimen>
+    <dimen name="text_m">14sp</dimen>
+    <dimen name="text_l">16sp</dimen>
+    <dimen name="text_h">18sp</dimen>
+    <dimen name="text_h1">20sp</dimen>
+    <dimen name="text_h2">22sp</dimen>
+</resources>

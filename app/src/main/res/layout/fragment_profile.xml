@@ -80,18 +80,20 @@
                         android:layout_marginStart="@dimen/size_s"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toEndOf="@id/profile"
-                        android:layout_width="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"/>
 
                     <TextView
                         android:id="@+id/address"
                         android:text="@string/address"
                         android:textSize="@dimen/text_h"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/name"
                         app:layout_constraintStart_toEndOf="@id/profile"
                         android:layout_marginStart="@dimen/size_s"
                         android:layout_marginTop="@dimen/space_m"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"/>
 
                     <ImageView

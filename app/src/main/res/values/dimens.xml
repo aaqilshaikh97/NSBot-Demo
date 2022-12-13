@@ -1,0 +1,99 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="size_normal">40dp</dimen>
+    <dimen name="size_small">30dp</dimen>
+    <dimen name="badge_size">18dp</dimen>
+    <dimen name="tag_size">60dp</dimen>
+
+    <dimen name="text_count">10sp</dimen>
+    <dimen name="text_s">12sp</dimen>
+    <dimen name="text_n">14sp</dimen>
+    <dimen name="text_m">16sp</dimen>
+    <dimen name="text_l">18sp</dimen>
+    <dimen name="text_h">21sp</dimen>
+    <dimen name="text_h1">21sp</dimen>
+    <dimen name="text_h2">24sp</dimen>
+
+    <dimen name="space_xs">2dp</dimen>
+    <dimen name="space_sm">8dp</dimen>
+    <dimen name="space_xl">20dp</dimen>
+    <dimen name="space_2xl">30dp</dimen>
+    <dimen name="space_3xl">40dp</dimen>
+    <dimen name="space_sx">2dp</dimen>
+    <dimen name="space_s">4dp</dimen>
+    <dimen name="space_m">8dp</dimen>
+    <dimen name="space_ml">12dp</dimen>
+    <dimen name="space_l">16dp</dimen>
+
+    <dimen name="size_s">30dp</dimen>
+    <dimen name="size_n">40dp</dimen>
+    <dimen name="size_m">45dp</dimen>
+    <dimen name="size_ml">60dp</dimen>
+    <dimen name="size_l">80dp</dimen>
+    <dimen name="size_icon">50dp</dimen>
+
+    <dimen name="filter_list_size">400dp</dimen>
+    <dimen name="cart_button">35dp</dimen>
+    <dimen name="icon">20dp</dimen>
+    <dimen name="address_card">650dp</dimen>
+    <dimen name="penguin_size">100dp</dimen>
+    <dimen name="size_veg">20dp</dimen>
+
+    <dimen name="dialog_width">300dp</dimen>
+    <dimen name="dialog_height">580dp</dimen>
+    <dimen name="food_list_item">260dp</dimen>
+    <dimen name="food_img">140dp</dimen>
+    <dimen name="food_img_size">250dp</dimen>
+    <dimen name="btn_width">300dp</dimen>
+    <dimen name="size_nl">60dp</dimen>
+    <dimen name="size_xl">100dp</dimen>
+    <dimen name="food_image">160dp</dimen>
+    <dimen name="size_sm">35dp</dimen>
+    <dimen name="food_categories_h">80dp</dimen>
+    <dimen name="food_categories_w">80dp</dimen>
+
+    <dimen name="restaurant_w">160dp</dimen>
+    <dimen name="restaurant_h">100dp</dimen>
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="elevation">10dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_icon">20dp</dimen>
+    <dimen name="dash_tile_height">90dp</dimen>
+    <dimen name="home_graph_height">280dp</dimen>
+    <dimen name="sales_graph_height">265dp</dimen>
+
+    <dimen name="list_icon">24dp</dimen>
+    <dimen name="text_icon">14dp</dimen>
+    <dimen name="calendar_width">320dp</dimen>
+    <dimen name="calendar_height">320dp</dimen>
+    <dimen name="img_splash_logo">200dp</dimen>
+    <dimen name="info_max_width">120dp</dimen>
+
+    <dimen name="window_share">300dp</dimen>
+    <dimen name="share_height">140dp</dimen>
+    <dimen name="file_icon">32dp</dimen>
+    <dimen name="text_h4">40sp</dimen>
+    <dimen name="vp_height">700dp</dimen>
+    <dimen name="sort_arrow_size">16dp</dimen>
+    <dimen name="amount_w">120dp</dimen>
+    <dimen name="thmb_size">100dp</dimen>
+    <dimen name="photo_list">140dp</dimen>
+    <dimen name="logo_size">150dp</dimen>
+    <dimen name="size_logo">120dp</dimen>
+    <dimen name="edit_image">170dp</dimen>
+    <dimen name="header">58dp</dimen>
+    <dimen name="card_order">130dp</dimen>
+    <dimen name="text_xs">10sp</dimen>
+    <dimen name="claim_height">200dp</dimen>
+    <dimen name="space_normal">12dp</dimen>
+    <dimen name="image_size">70dp</dimen>
+    <dimen name="card_pay">70dp</dimen>
+    <dimen name="variant_text">70dp</dimen>
+    <dimen name="login_width">400dp</dimen>
+</resources>

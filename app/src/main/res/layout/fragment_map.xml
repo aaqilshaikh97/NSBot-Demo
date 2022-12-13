@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topBar"
+        android:paddingHorizontal="@dimen/space_l"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_ml">
+
+        <ImageView
+            android:id="@+id/settings"
+            android:src="@drawable/ic_settings_24"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="@dimen/size_m"
+            android:layout_height="@dimen/size_m"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/account"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/settings"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="@dimen/space_l"
+            android:layout_width="@dimen/size_m"
+            android:layout_height="@dimen/size_m"
+            app:tint="@color/white" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:src="@drawable/logo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="@dimen/space_m"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="@dimen/size_m"
+            android:layout_height="@dimen/size_m"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_h2"
+            app:layout_constraintStart_toEndOf="@id/profile"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_margin="@dimen/space_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <ImageView
+        android:id="@+id/currentLoc"
+        android:src="@drawable/ic_baseline_my_location_24"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="@dimen/size_n"
+        android:layout_height="@dimen/size_n"
+        android:layout_margin="@dimen/space_l"
+        android:layout_alignBottom="@id/map"
+        android:layout_alignEnd="@id/map" />
+
+    <ImageView
+        android:id="@+id/storeLocation"
+        android:src="@drawable/ic_baseline_storefront_24"
+        app:layout_constraintTop_toBottomOf="@id/currentLoc"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="@dimen/size_n"
+        android:layout_height="@dimen/size_n"
+        android:layout_margin="@dimen/space_l"
+        android:layout_alignBottom="@id/map"
+        android:layout_alignEnd="@id/map" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
